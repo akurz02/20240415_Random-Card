@@ -1,5 +1,5 @@
 body {
- background-color: #081E3F;
+ background-color: #35654D;
  font-family: "Comic Sans MS", "Comic Sans", cursive;
  color: #B6862C;
  text-align: center;
@@ -7,20 +7,39 @@ body {
 
 .card {
     background-color:white;
-    width: 20%;
-    height: 1000%;
+    width: 200px;
+    height: 300px;
     border: 1px solid black; 
     padding: 10px; 
     font-size:24px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px #000000;
 }
 
+.top-suit {
+    margin-top: 5%;
+    margin-bottom: 40%;
+    text-align: left;
+}
+
+.number {
+    margin-top: 40%;
+    margin-bottom: 40%;
+}
+
+.bottom-suit {
+    margin-top: 40%;
+    margin-bottom: 5%;
+    text-align: right;
+    transform: scaleY(-1);
+}
 
 .vibrant {
     color:magenta;
 }
 
 .dark {
-    color:cyan;
+    color:#081E3F;
 }

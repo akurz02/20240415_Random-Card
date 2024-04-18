@@ -12,6 +12,8 @@ function generateRandomCardNo(){
 let randomSuit = generateRandomSuit();
 let randomCardNo = generateRandomCardNo();
 
-document.querySelector(".card").innerHTML = randomSuit + randomCardNo + randomSuit;
+document.querySelector(".top-suit").innerHTML = randomSuit
+document.querySelector(".number").innerHTML = `<span class="dark">${randomCardNo}</span>`
+document.querySelector(".bottom-suit").innerHTML = randomSuit
 
 document.querySelector(".newCardButton").addEventListener("click",function() {location.reload();});
