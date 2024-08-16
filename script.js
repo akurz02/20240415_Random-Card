@@ -16,4 +16,4 @@ document.querySelector(".top-suit").innerHTML = randomSuit
 document.querySelector(".number").innerHTML = `<span class="dark">${randomCardNo}</span>`
 document.querySelector(".bottom-suit").innerHTML = randomSuit
 
-document.querySelector(".newCardButton").addEventListener("click",function() {location.reload()});
+document.querySelector(".newCardButton").addEventListener("click",function() {location.reload();});
